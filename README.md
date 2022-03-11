@@ -24,7 +24,7 @@ applied normalization, feature selection, feature expansion, and hyperparameter 
 out that the Random Forest model with normalization and tree-based feature selection yielded
 the best results, having a MAE score of 0.387 and a F1 score of 0.719.
 
-<br/>
+<br/><br/>
 In general, we were impressed with the fit and evaluation scores for the ensemble methods. The
 results showed that discussions and activities on social media could imply song popularity, that
 predicting chart rankings with features extracted from social media is possible. Among all the
