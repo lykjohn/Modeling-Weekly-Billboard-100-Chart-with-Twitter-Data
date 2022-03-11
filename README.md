@@ -11,6 +11,9 @@ the Billboard and Spotify charts, we compiled a complete list of predictors for 
 rankings. Considering the dimension of the training data, this is a multi-class classification
 problem. To represent song popularity, we grouped rankings into 6 classes, with class 0
 indicating songs that were popular on the Spotify chart but not on the Billboard chart.
+
+
+<br/>
 Following some data exploration, we fit an array of training algorithms, where the performance
 of each was evaluated with MAE, confusion matrix (macro F1 score), skewness, and kurtosis.
 We first fit and trained two baseline models using Naive Bayes and Support Vector Machine
@@ -21,6 +24,8 @@ Perceptron (MLP), Gradient Boosting, and many more. To optimize these models, we
 applied normalization, feature selection, feature expansion, and hyperparameter tuning. It turns
 out that the Random Forest model with normalization and tree-based feature selection yielded
 the best results, having a MAE score of 0.387 and a F1 score of 0.719.
+
+<br/>
 In general, we were impressed with the fit and evaluation scores for the ensemble methods. The
 results showed that discussions and activities on social media could imply song popularity, that
 predicting chart rankings with features extracted from social media is possible. Among all the
